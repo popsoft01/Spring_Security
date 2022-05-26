@@ -46,7 +46,7 @@ public class SpringSecurityAndJwtTokenApplication  {
             userService.addRoleToUser("ele","ROLE_USER");
             userService.addRoleToUser("Ojo","ROLE_MANAGER");
         };
-//    }
+    }
 
 //    @Override
 //    public void run(String... args) throws Exception {
@@ -64,5 +64,5 @@ public class SpringSecurityAndJwtTokenApplication  {
 //        userService.addRoleToUser("love","ROLE_USER");
 //        userService.addRoleToUser("love","ROLE_ADMIN");
 //        userService.addRoleToUser("ele","ROLE_USER");
-    }
+//    }
 }
